@@ -12,18 +12,7 @@
 		3B5B0BE61A1D237700EEED03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B0BE41A1D237700EEED03 /* Main.storyboard */; };
 		3B5B0BE81A1D237700EEED03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B0BE71A1D237700EEED03 /* Images.xcassets */; };
 		3B5B0BEB1A1D237700EEED03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B0BE91A1D237700EEED03 /* LaunchScreen.xib */; };
-		3B5B0BF71A1D237800EEED03 /* watchtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B0BF61A1D237800EEED03 /* watchtestTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3B5B0BF11A1D237700EEED03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B5B0BD31A1D237700EEED03 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B5B0BDA1A1D237700EEED03;
-			remoteInfo = watchtest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B5B0BDB1A1D237700EEED03 /* watchtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		3B5B0BE51A1D237700EEED03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B5B0BE71A1D237700EEED03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B5B0BEA1A1D237700EEED03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3B5B0BF01A1D237700EEED03 /* watchtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5B0BF51A1D237700EEED03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B5B0BF61A1D237800EEED03 /* watchtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchtestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3B5B0BD81A1D237700EEED03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B5B0BED1A1D237700EEED03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				3B5B0BDD1A1D237700EEED03 /* watchtest */,
-				3B5B0BF31A1D237700EEED03 /* watchtestTests */,
 				3B5B0BDC1A1D237700EEED03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				3B5B0BDB1A1D237700EEED03 /* watchtest.app */,
-				3B5B0BF01A1D237700EEED03 /* watchtestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3B5B0BF31A1D237700EEED03 /* watchtestTests */ = {
-			isa = PBXGroup;
-			children = (
-				3B5B0BF61A1D237800EEED03 /* watchtestTests.swift */,
-				3B5B0BF41A1D237700EEED03 /* Supporting Files */,
-			);
-			path = watchtestTests;
-			sourceTree = "<group>";
-		};
-		3B5B0BF41A1D237700EEED03 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B5B0BF51A1D237700EEED03 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 3B5B0BDB1A1D237700EEED03 /* watchtest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B5B0BEF1A1D237700EEED03 /* watchtestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B5B0BFD1A1D237800EEED03 /* Build configuration list for PBXNativeTarget "watchtestTests" */;
-			buildPhases = (
-				3B5B0BEC1A1D237700EEED03 /* Sources */,
-				3B5B0BED1A1D237700EEED03 /* Frameworks */,
-				3B5B0BEE1A1D237700EEED03 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B5B0BF21A1D237700EEED03 /* PBXTargetDependency */,
-			);
-			name = watchtestTests;
-			productName = watchtestTests;
-			productReference = 3B5B0BF01A1D237700EEED03 /* watchtestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					3B5B0BDA1A1D237700EEED03 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					3B5B0BEF1A1D237700EEED03 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 3B5B0BDA1A1D237700EEED03;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				3B5B0BDA1A1D237700EEED03 /* watchtest */,
-				3B5B0BEF1A1D237700EEED03 /* watchtestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B5B0BEE1A1D237700EEED03 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B5B0BEC1A1D237700EEED03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B5B0BF71A1D237800EEED03 /* watchtestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B5B0BF21A1D237700EEED03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B5B0BDA1A1D237700EEED03 /* watchtest */;
-			targetProxy = 3B5B0BF11A1D237700EEED03 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3B5B0BE41A1D237700EEED03 /* Main.storyboard */ = {
@@ -352,40 +266,6 @@
 			};
 			name = Release;
 		};
-		3B5B0BFE1A1D237800EEED03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = watchtestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtest.app/watchtest";
-			};
-			name = Debug;
-		};
-		3B5B0BFF1A1D237800EEED03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = watchtestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchtest.app/watchtest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,14 +285,7 @@
 				3B5B0BFC1A1D237800EEED03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3B5B0BFD1A1D237800EEED03 /* Build configuration list for PBXNativeTarget "watchtestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B5B0BFE1A1D237800EEED03 /* Debug */,
-				3B5B0BFF1A1D237800EEED03 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
