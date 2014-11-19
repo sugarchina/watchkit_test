@@ -11,6 +11,10 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watchtest_Watch_App" customModuleProvider="target">
                     <items>
                         <label width="95" height="50" alignment="center" verticalAlignment="center" text="Helo World" textAlignment="left" id="pyg-2e-72Z"/>
+                        <dateLabel alignment="center" verticalAlignment="center" id="6gg-de-74T">
+                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
+                        </dateLabel>
                     </items>
                 </controller>
             </objects>
