@@ -11,7 +11,19 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    
+    
+    @IBAction func btnClick() {
+        
+        mainLabel.setText("Ok, Now is ")
+        
+        timeLabel.setAlpha(1)
+    }
+    
+    @IBOutlet weak var mainLabel: WKInterfaceLabel!
 
+    @IBOutlet weak var timeLabel: WKInterfaceDate!
     override init(context: AnyObject?) {
         // Initialize variables here.
         super.init(context: context)
